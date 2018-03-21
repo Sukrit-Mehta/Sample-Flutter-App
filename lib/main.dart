@@ -112,10 +112,6 @@ class RandomWordsState extends State<RandomWords> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    /*final wordPair = new WordPair.random();
-    return new Text(wordPair.asPascalCase);*/
-
     return new Scaffold(
       appBar: new AppBar(
         title: new Text('StartUp Name Generator'),
@@ -123,7 +119,6 @@ class RandomWordsState extends State<RandomWords> {
       body: _buildSuggestions()
     );
   }
-  @override
   Widget _buildSuggestions(){
     return new ListView.builder(
       padding: const EdgeInsets.all(16.0),
